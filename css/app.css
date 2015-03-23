@@ -34,12 +34,22 @@ hr.small{
 	max-width: 100px;
 	margin: 15px auto;
 	border-width: 4px;
-	#border-color: #fff;
+	border-color: #fff;
+}
+
+section{
+	border-bottom: 3px dashed green;
+	padding: 100px 0;
+	font-size: 20px;
+}
+
+section h2{
+	text-transform: uppercase;
 }
 
 .section-1{
 	background-color: #000;
-	padding: 20px 0;
+	#padding: 20px 0;
 }
 
 .section-1 img{
@@ -52,15 +62,50 @@ hr.small{
 }
 
 .section-software{
-	padding: 30px 10px;
+	#padding: 80px 0;
+	background-color: #bedee9;
 }
 
 .section-software img{
-	max-height: 200px;
+	padding-top: 50px;
+	max-height: 300px;
+}
+
+.section-payments{
+	background-color: #bae7e5;
+}
+
+.section-payments img{
+	padding-top: 100px;
 }
 
 .section-adverts{
-	
+	background-color: #b7e5d5;	
+}
+
+.section-adverts img{
+	max-height: 300px;
+}
+
+.grid-bg{
+	background-image: url(../images/grid.png);
+}
+
+.section-clients{
+	padding: 10px 0 40px;
+	#padding-top: 10px;
+}
+
+.section-clients h2{
+	margin: 40px 0;
+}
+
+.navbar-black{
+	background-color: #000;
+}
+
+footer{
+	padding: 20px 0;
 }
 
 /************* Responsive *****************/
