@@ -66,6 +66,15 @@ section h2{
 	background-color: #bedee9;
 }
 
+.section-software ul{
+	#margin-top: 10%;
+	margin-left: 40%;
+}
+
+.section-software ul i{
+	color: green;
+}
+
 .section-software img{
 	padding: 150px 0;
 	max-height: 600px;
@@ -101,7 +110,7 @@ section h2{
 }
 
 .section-adverts img{
-	max-height: 500px;
+	max-height: 400px;
 	padding: 30px 0;
 }
 
@@ -110,6 +119,23 @@ section h2{
 }
 
 .section-adverts .text-adverts p{
+	padding: 0 30px;
+}
+
+.section-data-mining{
+	background-color: #bae7e5;
+}
+
+.section-data-mining img{
+	max-height: 350px;
+	padding: 80px 0;
+}
+
+.section-data-mining .text-data-mining{
+	margin: 50px 0;
+}
+
+.section-data-mining .text-data-mining p{
 	padding: 0 30px;
 }
 
