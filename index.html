@@ -60,61 +60,38 @@
          -->
 
         <header class="row">
-            <nav class="navbar navbar-black navbar-fixed-top" role="navigation">
-              <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header" >
-                  <button type="button" ng-click="isCollapsed = !isCollapsed" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <!-- <a class="navbar-brand" href="#"><img src="images/g3810.png" class="img-responsive"></a> -->
-                  <a class="navbar-brand" href="#"></a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div collapse="isCollapsed" class="navbar-collapse pull-right">
-                    <ul class="nav navbar-nav">
-                        <!-- <li class="visible-xs text-info">Menu:</li>
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li> -->
-                        
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-              </div>
-            </nav>
+            
             <img src="images/logo.png" class="img-responsive center-block">
         </header>
 
-        <section class="row text-center section-1 hidden-xs">
-            <div class="col-xs-3">
-                <img src="images/software_white.png" class="img-responsive center-block">
+        <section class="row text-center section-1 thin-font">
+            <h5>select a service below to see more</h5>
+            <a class="col-md-3" href="#software">
+                <img src="images/software_white.png" class="img-responsive center-block hidden-xs">
                 <h3 class="thin-font">Software</h3>
-            </div>
-            <div class="col-xs-3">
-                <img src="images/cards_white.png" class="img-responsive center-block">
+            </a>
+            <a class="col-md-3" href="#payments">
+                <img src="images/cards_white.png" class="img-responsive center-block hidden-xs">
                 <h3 class="thin-font">electronic Payments</h3>
-            </div>
-            <div class="col-xs-3">
-                <img src="images/advert_white.png" class="img-responsive center-block">
+            </a>
+            <a class="col-md-3" href="#advertising">
+                <img src="images/advert_white.png" class="img-responsive center-block hidden-xs">
                 <h3 class="thin-font">mobile advertising</h3>
-            </div>
-            <div class="col-xs-3">
-                <img src="images/g3.png" class="img-responsive center-block">
+            </a>
+            <a class="col-md-3" href="#data">
+                <img src="images/g3.png" class="img-responsive center-block hidden-xs">
                 <h3 class="thin-font">data mining</h3>
-            </div>
+            </a>
             
         </section>
 
-        <section class="row text-center section-software">
+        <section class="row text-center section-software" id="software">
             <div class="col-md-6 text-sw">
                 <h2 class="thin-font white-font">Software</h2>
                 <hr class="small">
                 <p class="text-justify os-font">
                     Nehemiah & Williams offers a partnership which not only understands how to build high performance software products and applications but also gives you a partner who is adept at technology platforms & agile development practices and deliver high quality custom software with cost and time predictability.
-                    <ul class="fa-ul text-left">
+                    <ul class="fa-ul text-left os-font">
                         <li><i class="fa-li fa fa-check-square"></i>Software Development</li>
                         <li><i class="fa-li fa fa-check-square"></i>Software Project Management</li>
                         <li><i class="fa-li fa fa-check-square"></i>Software Quality assurance</li>
@@ -127,9 +104,9 @@
             </div>
         </section>
 
-        <section class="row text-center section-payments">
+        <section class="row text-center section-payments" id="payments">
             <div class="col-md-6 grid-bg">
-                <img src="images/payments.png" class="center-block img-responsive">
+                <img src="images/payment-products.png" class="center-block img-responsive">
             </div>
             <div class="col-md-6 text-payments">
                 <h2 class="thin-font white-font">electronic Payments</h2>
@@ -140,7 +117,7 @@
             </div>
         </section>
 
-        <section class="row text-center section-adverts">
+        <section class="row text-center section-adverts" id="advertising">
             <div class="col-md-6 text-adverts">
                 <h2 class="thin-font white-font">mobile Advertising</h2>
                 <hr class="small">
@@ -149,11 +126,11 @@
                 </p>
             </div>
             <div class="col-md-6 grid-bg">
-                <img src="images/adverts.png" class="center-block img-responsive">
+                <img src="images/marketing.png" class="center-block img-responsive">
             </div>
         </section>
 
-        <section class="row text-center section-data-mining">
+        <section class="row text-center section-data-mining" id="data">
             <div class="col-md-6 grid-bg">
                 <img src="images/g51076.png" class="center-block img-responsive">
             </div>
