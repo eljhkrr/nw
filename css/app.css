@@ -33,7 +33,8 @@ header .grid-bg{
 */
 
 header{
-	background-color: #000;
+	#background-color: #000;
+	background-color: #BDF89C;
 }
 
 header img{
@@ -58,7 +59,8 @@ section h2{
 }
 
 .section-1{
-	background-color: #000;
+	#background-color: #000;
+	background-color: #BDF89C;
 	padding: 10px 0;
 }
 
